@@ -8,8 +8,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "next/core-web-vitals"
+    "plugin:prettier/recommended"
   ],
   "settings": {
     "react": {
@@ -20,15 +19,11 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 13,
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": ["react", "react-hooks","@typescript-eslint", "prettier"],
   "rules": {
-    "react/react-in-jsx-scope": 0,
-    "react/prefer-stateless-function": 0,
-    "react/jsx-filename-extension": 0,
-    "react/jsx-one-expression-per-line": 0,
-    "no-nested-ternary": 0
+    "react/react-in-jsx-scope": 0
   }
 }
