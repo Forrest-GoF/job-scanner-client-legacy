@@ -6,6 +6,10 @@ const GlobalStyle = () => {
     <Global
       styles={css`
         ${reset}
+
+        ul, li {
+          list-style: none;
+        }
       `}
     />
   )
