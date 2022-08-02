@@ -49,6 +49,7 @@ const JobsPage: NextPage = () => {
       <Styled.JobDetailContainer>
         <Styled.JobDetailWrapper>{selectedJob && <JobDetail job={selectedJob} />}</Styled.JobDetailWrapper>
       </Styled.JobDetailContainer>
+      TEST
     </Styled.Container>
   )
 }
